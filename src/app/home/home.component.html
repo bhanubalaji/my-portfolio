@@ -1,0 +1,326 @@
+
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+<div class="head">
+
+  <div class="head1container">
+    <div class="logo">
+      <img src="../../assets/images/bbb logo.jpg" alt="Bezawada Bhanu Balaji" >
+    </div>
+
+<div class="hedmid">
+  <div class="marquee-container">
+    <div class="marquee">
+     WELCOME  TO   YOU
+    </div>
+  </div>
+
+</div>
+
+    <div class="colum">
+      <div class="phno">
+        <i class="fa fa-phone white-color"></i>
+      <span>9542441123</span>
+    </div>
+
+      <div class="email">
+        <i class="far fa-envelope"></i>
+<span> bezawadabhanubalaji3018@gmail.com</span>
+       </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="nav">
+  <ul>
+
+    <li (click)=" myex1function()"> <a>My Projects<span class="arrow">&#9662;</span></a></li>
+    <div class="dropdown-content" *ngIf=" dropdownOpen">
+      <li> Demo Facebook clone</li>
+      <li>  simple web application with real time chat</li>
+      <li>forms based application</li>
+    </div>
+    <li> <a href="#">Send your requirement </a></li>
+    <li> <a href="#">Feedback of you </a></li>
+    <li> <a href="#"> Contact me</a></li>
+
+  </ul>
+</div>
+
+
+
+
+
+<div class="body">
+
+  <div class="allboxrow">
+
+     <div class="header">
+      <h1>Web Application Development</h1>
+    </div>
+
+    <div class="allbox">
+<div class="myskillsh5"><h5> <b>myskills</b> </h5></div>
+    <div class="boxes">
+      <div *ngFor="let item of listofboxdata;let i=index" class="box">
+        <h2>{{item}}</h2>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="firstcontainer">
+ <h1>WELCOME TO MY WORLD</h1>
+ <h4 style="text-align: center;"> My Applications</h4>
+<div class="maincontainer">
+
+  <div class="left">
+    <img class="appimage" src="../../assets/images/angularfacebook screenshot.png" alt="my application photo" height="50%"
+    width= "auto">
+    <h2>demo facebook application</h2>
+    <h4> Demo Facebook clone</h4>
+    <p>This is a Facebook web application where users can sign up and log in with their
+      details. After logging in, they can send friend requests to other users. If they receive an
+      confirmation from the other user, the photos of the confirmed friends will appear on their home
+      web page.
+      </p>
+      <div class="imgname">
+        <img class="imgname1" src="../../assets/images/bhanubalajiprofilepic.png" alt="no profile" height="69px"  width="auto">
+        <div class="mameoftheimgname1">
+          <h5 style="  margin-bottom: -10px;"> BHANU BALAJI</h5>
+         <sub><h6 style="margin-top: -10px;" >(B.Tech)</h6></sub>
+        </div>
+
+      </div>
+  </div>
+  <div class="right">
+
+    <img class="appimage" src="../../assets/images/angularfacebook screenshot.png" alt="my application photo" height="50%"
+    width= "auto">
+    <h2>simple web application</h2>
+    <h4>  simple web application with real time chat</h4>
+    <p> This is a web application where users can sign up and log in with their details. After
+      logging in, they can access the home page and navigate to the chat web pages. On these pages,
+      they can engage in real-time chats with other users who have access to this page
+      </p>
+      <div class="imgname">
+        <img class="imgname1" src="../../assets/images/bhanubalajiprofilepic.png" alt="no profile" height="69px"  width="auto">
+        <div class="mameoftheimgname1">
+          <h5 style="  margin-bottom: -10px;"> BHANU BALAJI</h5>
+         <sub><h6 style="margin-top: -10px;" >(B.Tech)</h6></sub>
+        </div>
+
+      </div>
+
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+<div class="footer1">
+  <div class="footimg">
+<a href=""><img src="../../assets/images/bbb logo.jpg" alt="my profile"></a>
+  </div>
+
+  <div class="footdata">
+    <li><a href="">About</a></li>
+<li><a routerLink="contactme">Contact</a></li>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section>
+  <div class="example-label">Basic</div>
+  <div class="example-button-row">
+    <button mat-button>Basic</button>
+    <button mat-button color="primary">Primary</button>
+    <button mat-button color="accent">Accent</button>
+    <button mat-button color="warn">Warn</button>
+    <button mat-button disabled>Disabled</button>
+    <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">Raised</div>
+  <div class="example-button-row">
+    <button mat-raised-button>Basic</button>
+    <button mat-raised-button color="primary">Primary</button>
+    <button mat-raised-button color="accent">Accent</button>
+    <button mat-raised-button color="warn">Warn</button>
+    <button mat-raised-button disabled>Disabled</button>
+    <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">Stroked</div>
+  <div class="example-button-row">
+    <button mat-stroked-button>Basic</button>
+    <button mat-stroked-button color="primary">Primary</button>
+    <button mat-stroked-button color="accent">Accent</button>
+    <button mat-stroked-button color="warn">Warn</button>
+    <button mat-stroked-button disabled>Disabled</button>
+    <a mat-stroked-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">Flat</div>
+  <div class="example-button-row">
+    <button mat-flat-button>Basic</button>
+    <button mat-flat-button color="primary">Primary</button>
+    <button mat-flat-button color="accent">Accent</button>
+    <button mat-flat-button color="warn">Warn</button>
+    <button mat-flat-button disabled>Disabled</button>
+    <a mat-flat-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">Icon</div>
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+        <mat-icon>home</mat-icon>
+      </button>
+      <button mat-icon-button color="accent" aria-label="Example icon button with a menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button disabled aria-label="Example icon button with a open in new tab icon">
+        <mat-icon>open_in_new</mat-icon>
+      </button>
+    </div>
+  </div>
+</section>
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">FAB</div>
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
+          <mat-icon>bookmark</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-fab color="warn" aria-label="Example icon button with a home icon">
+          <mat-icon>home</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-fab disabled aria-label="Example icon button with a heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">Mini FAB</div>
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-mini-fab color="accent" aria-label="Example icon button with a plus one icon">
+          <mat-icon>plus_one</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-mini-fab color="warn" aria-label="Example icon button with a filter list icon">
+          <mat-icon>filter_list</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-mini-fab disabled aria-label="Example icon button with a home icon">
+          <mat-icon>home</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+  <mat-button-toggle value="bold">Bold</mat-button-toggle>
+  <mat-button-toggle value="italic">Italic</mat-button-toggle>
+  <mat-button-toggle value="underline">Underline</mat-button-toggle>
+</mat-button-toggle-group>-->
+<!-- <p>
+  Default appearance:
+  <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="bold">Bold</mat-button-toggle>
+    <mat-button-toggle value="italic">Italic</mat-button-toggle>
+    <mat-button-toggle value="underline">Underline</mat-button-toggle>
+  </mat-button-toggle-group>
+</p>
+
+<p>
+  Legacy appearance:
+  <mat-button-toggle-group appearance="legacy" name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="bold">Bold</mat-button-toggle>
+    <mat-button-toggle value="italic">Italic</mat-button-toggle>
+    <mat-button-toggle value="underline">Underline</mat-button-toggle>
+  </mat-button-toggle-group>
+</p> -->
