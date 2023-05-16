@@ -1,8 +1,0 @@
-[[redirects]]
-from = "/*"
-to = "dist/myportfolio/index.html"
-status = 200
-
-[[redirects]]
-from = "/api/*"
-to = "http://localhost:3000/api/:splat"
