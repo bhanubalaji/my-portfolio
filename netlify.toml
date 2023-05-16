@@ -1,3 +1,8 @@
-[build]
-command = "nodemon index.js"
-publish = "dist/myportfolio"
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[redirects]]
+from = "/api/*"
+to = "http://your-nodejs-server-url/api/:splat"
