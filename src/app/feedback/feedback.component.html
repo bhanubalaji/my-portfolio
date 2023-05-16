@@ -1,0 +1,29 @@
+<div class="container">
+  <img src="../../assets/images/feedbackimage1.jpg" alt="feedback image">
+
+<div class="name">
+  <input type="text" placeholder="ENTER YOUR NAME" required [(ngModel)]=inputvalue>
+</div>
+  <div *ngIf="selectedRating" class="outputdisplay">
+    <p >{{emojis[ selectedRating ]}}</p>
+  <div class="outputdisplayname">{{name[selectedRating]}}</div>
+  </div>
+
+  <div class="formlist">
+<div class="rating" *ngFor="let star of stars" >
+  <span class="star" (click)="rate(star)"> {{emojis[star]}} </span>
+  <div>{{name[star]}}</div>
+</div>
+
+
+
+
+  </div>
+
+<div *ngIf="selectedRating" class="submitbutton">
+  <button (click)="submit()" >SUBMIT</button>
+  {{message}}
+</div>
+
+</div>
+

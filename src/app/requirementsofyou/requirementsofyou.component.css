@@ -1,0 +1,48 @@
+.main .image img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+.main .image {
+  position: absolute;
+
+}
+.main .forms{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh;
+  margin-left: 35vw;
+}
+.main .forms h1{
+  color: aqua;
+}
+.main .forms input{
+ margin-bottom: 4vh;
+ width: 18vw;
+ height: 5vh;
+ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+ border-radius: 10px;
+}
+.main .forms textarea{
+  margin-top: 2vh;
+  width: 18vw;
+  height: 9vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+ }
+ .main .forms label{
+  color: red;
+ }
+ .main .forms button{
+  margin-top: 5vh;
+  width: 10vw;
+  height: 9vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-left: 4vw;
+  background-color:black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+ }

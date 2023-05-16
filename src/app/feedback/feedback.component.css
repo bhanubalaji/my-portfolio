@@ -1,0 +1,67 @@
+.container img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.container .formlist{
+
+  position: relative;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 25vh;
+    padding-left: 30vh;
+
+}
+.container .submitbutton{
+  position: relative;
+  padding-left: 50vw;
+padding-top: 10vh;
+
+
+}
+
+
+.container .submitbutton button{
+  font-weight: bold;
+background-color:wheat;
+border-radius: 100%;
+cursor: pointer;
+}
+.container .outputdisplay{
+  position: relative;
+  padding-top:17vh;
+  padding-left: 47vw;
+}
+.container .name{
+  position: relative;
+  padding-top:15vh;
+  padding-left: 47vw;
+
+
+}
+
+.container .name input{
+  height: 3vh;
+  width:auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.rating {
+  display: flex;
+flex-direction: row;
+  color: #ccc;
+cursor: pointer;
+font-size: 30px;
+padding: 1% 1%;
+}
+.outputdisplay p {
+font-size: 10rem;
+position: absolute;
+}
+.outputdisplay .outputdisplayname{
+font-size: 30px;
+position: relative;
+padding-left: 10vh;
+}
+

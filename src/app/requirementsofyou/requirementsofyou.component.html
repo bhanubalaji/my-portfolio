@@ -1,0 +1,21 @@
+<div class="main">
+  <div class="image">
+    <img src="../../assets/images/download (1).jpg" alt="err">
+  </div>
+  <form (ngSubmit)="submitForm()" #myForm="ngForm">
+  <div class="forms">
+    <h1>REQUIREMENTS FORM</h1>
+    <label for="name">NAME:</label>
+    <input type="text" id="name" [(ngModel)]="formData.name" required name="name">
+    <label for="email">E-MAIL:</label>
+    <input type="text" id="email" [(ngModel)]="formData.email" required name="email">
+    <label for="phno">PH No.</label>
+    <input type="text" id="phno" [(ngModel)]="formData.phno" required name="phno">
+    <label for="text">ENTER YOU REQUIREMENT</label>
+    <textarea name="textarea" id="text" cols="30" rows="10" [(ngModel)]="formData.text" required></textarea>
+    <button [disabled]="!myForm.valid">SUBMIT</button>
+<div style="color: green;">{{message}}</div>
+  </div>
+</form>
+</div>
+

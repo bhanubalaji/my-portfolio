@@ -4,37 +4,30 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import {MatButtonToggleModule} from '@angular/material/button-toggle';
-// import {MaterialExampleModule} from '../material.module';
-// import {ButtonToggleAppearanceExample} from './button-toggle-appearance-example';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatNativeDateModule} from '@angular/material/core';
-// import {HttpClientModule} from '  @angular/common/http';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatDividerModule} from '@angular/material/divider';
-import { ContactmeComponent } from './contactme/contactme.component'
+import { ContactmeComponent } from './contactme/contactme.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { RequirementsofyouComponent } from './requirementsofyou/requirementsofyou.component'
+import {HttpClientModule} from '@angular/common/http';
+import { AboutComponent } from './about/about.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactmeComponent
+    ContactmeComponent,
+    FeedbackComponent,
+    RequirementsofyouComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatButtonToggleModule,
     FormsModule,
     ReactiveFormsModule,
-    MatNativeDateModule,
-    MatButtonModule,
-    MatIconModule,
-    MatDividerModule
-
-
-    // HttpClientModule
-
-  ],
+    HttpClientModule
+   ],
   providers: [],
   bootstrap: [AppComponent]
 })

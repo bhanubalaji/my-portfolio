@@ -1,0 +1,16 @@
+.head img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.listadata{
+  display: flex;
+  justify-content: center;
+}
+.listadata li{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1% 30%;
+}
