@@ -1,8 +1,8 @@
 [[redirects]]
 from = "/*"
-to = "/index.html"
+to = "dist/myportfolio/index.html"
 status = 200
 
 [[redirects]]
 from = "/api/*"
-to = "http://your-nodejs-server-url/api/:splat"
+to = "http://localhost:3000/api/:splat"
