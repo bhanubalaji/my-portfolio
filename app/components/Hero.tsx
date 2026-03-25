@@ -138,7 +138,7 @@ export default function Hero() {
           ease: "easeInOut",
         }}
       >
-        <div className="space-y-6 p-10 md:p-14 rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 shadow-2xl">
+        <div className="space-y-8 pt-52 p-10 md:p-14 rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 shadow-2xl">
 
           {/* 🧠 SYSTEM HEADER */}
           <p className="text-xs tracking-widest text-indigo-300 uppercase">
