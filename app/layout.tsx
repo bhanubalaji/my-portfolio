@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Balaji | Full Stack Developer",
+  title: "Bhanu Balaji | Full Stack Developer",
   description: "Portfolio",
 };
 

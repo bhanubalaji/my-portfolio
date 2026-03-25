@@ -62,7 +62,7 @@ const Logo = () => {
 
       {/* Text */}
       <span className="text-white text-sm font-semibold tracking-wide">
-        Balaji
+        Bezawada Bhanu Balaji
       </span>
     </motion.div>
   );

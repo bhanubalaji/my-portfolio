@@ -10,7 +10,7 @@ export default function Footer() {
         
         {/* Left */}
         <div className="text-center md:text-left">
-          <h2 className="text-xl font-semibold">Balaji</h2>
+          <h2 className="text-xl font-semibold">Bezawada Bhanu Balaji</h2>
           <p className="text-gray-400 text-sm mt-1">
             Full Stack Developer • React • Next.js • Node.js
           </p>
@@ -56,7 +56,7 @@ export default function Footer() {
 
         {/* Right */}
         <div className="text-sm text-gray-500 text-center md:text-right">
-          © {new Date().getFullYear()} Balaji. All rights reserved.
+          © {new Date().getFullYear()} Bezawada Bhanu Balaji. All rights reserved.
         </div>
       </div>
 
